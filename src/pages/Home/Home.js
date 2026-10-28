@@ -21,7 +21,7 @@ const skillGroups = [
     },
     {
         labelKey: "skills-cat-backend",
-        items: ["Node.js", "GraphQL", "REST APIs", "Directus (Headless CMS)", "Custom CMS"]
+        items: ["Node.js", "GraphQL", "REST APIs", "Custom CMS Architecture"]
     },
     {
         labelKey: "skills-cat-tools",
@@ -38,14 +38,14 @@ const careerTimeline = [
         period_en: "July 2019 – Present",
         period_fr: "Juillet 2019 – Présent",
         bullets_en: [
-            "Architected and built ICITÉ from scratch, a full-stack online training platform (Node.js, React, GraphQL) serving Intact's brokerage network, underwriters, and employees.",
-            "Engineered the Learner Portal (LMS), Administration Portal, and customized Directus Headless CMS.",
-            "Developed a suite of custom web tools (React, Node.js, TypeScript) helping underwriters automate specialized workflows."
+            "Architected, developed, and maintain ICITÉ from the ground up, an enterprise online training platform (Node.js, React.js, GraphQL) actively used every day by hundreds of brokers, underwriters, and internal employees.",
+            "Engineered the Learner Portal (LMS), Administration Portal, and a custom Content Management System (CMS) built with React.js and Node.js.",
+            "Developed and maintain a suite of internal web applications and workflow tools (React.js, Node.js, TypeScript) relied upon daily by hundreds of underwriters to automate specialized tasks."
         ],
         bullets_fr: [
-            "Conception et développement de A à Z de la plateforme de formation en ligne ICITÉ (Node.js, React, GraphQL) pour le réseau de courtage d'Intact, les souscripteurs et les employés.",
-            "Développement des trois modules clés : portail apprenant (LMS), portail d'administration et CMS Headless (Directus).",
-            "Création d'une suite d'outils web internes (React, Node.js, TypeScript) pour assister les souscripteurs dans leurs tâches spécialisées."
+            "Conception, développement de A à Z et maintenance de la plateforme de formation en ligne ICITÉ (Node.js, React.js, GraphQL), utilisée chaque jour par des centaines de courtiers, de souscripteurs et d'employés.",
+            "Développement des trois modules clés : portail apprenant (LMS), portail d'administration et gestionnaire de contenu (CMS) personnalisé bâti avec React.js et Node.js.",
+            "Création et maintenance d'une suite d'outils web internes (React.js, Node.js, TypeScript) utilisés quotidiennement par des centaines de souscripteurs dans leurs tâches spécialisées."
         ]
     },
     {

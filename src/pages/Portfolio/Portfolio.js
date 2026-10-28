@@ -14,8 +14,8 @@ const projects = [
         company: "Intact Insurance",
         category: "fullstack",
         image: require('../../media/lms-icite.jpg'),
-        desc_fr: "ICITÉ est une plateforme de formation en ligne d'entreprise utilisée par le réseau de courtage d'Intact Assurance ainsi que par les employés et les souscripteurs. Étant le seul développeur lors du lancement de cette initiative au sein de l'équipe Formation et Développement, j'ai conçu et développé cette plateforme de A à Z pour répondre aux besoins de formation spécialisés que les autres systèmes internes ne couvraient pas.",
-        desc_en: "ICITÉ is an enterprise online training platform used by the Intact Insurance brokerage network as well as internal employees and underwriters. As the sole developer when launching this initiative within the Training and Development team, I architected and built this platform from the ground up to meet specialized training needs that existing internal platforms could not address.",
+        desc_fr: "ICITÉ est une plateforme de formation en ligne d'entreprise développée de A à Z et maintenue au quotidien, utilisée chaque jour par des centaines de courtiers du réseau d'Intact Assurance ainsi que par les souscripteurs et les employés internes. Étant le seul développeur lors du lancement de cette initiative au sein de l'équipe Formation et Développement, j'ai conçu et bâti cette plateforme pour répondre aux besoins de formation spécialisés que les autres systèmes internes ne couvraient pas.",
+        desc_en: "ICITÉ is an enterprise online training platform built from the ground up and actively maintained, serving hundreds of brokers across the Intact Insurance brokerage network as well as underwriters and internal employees every day. As the sole developer when launching this initiative within the Training and Development team, I architected and developed this platform to meet specialized training needs that other internal platforms could not address.",
         url: "https://icite.ca/",
         tech: ["React.js", "Node.js", "GraphQL", "TypeScript"]
     },
@@ -25,19 +25,19 @@ const projects = [
         company: "Intact Insurance",
         category: "fullstack",
         image: require('../../media/admin-icite.jpg'),
-        desc_fr: "Portail d'administration complet de l'écosystème ICITÉ centralisant la gestion des inscriptions des participants, des gestionnaires, des cohortes, des permissions d'accès, des rapports analytiques et de l'API.",
-        desc_en: "Comprehensive administration portal for the ICITÉ ecosystem centralizing participant registrations, manager accounts, cohorts, access permissions, analytics reports, and API management.",
+        desc_fr: "Portail d'administration complet de l'écosystème ICITÉ centralisant la gestion quotidienne des inscriptions des participants, des gestionnaires, des cohortes, des permissions d'accès, des rapports analytiques et de l'API.",
+        desc_en: "Comprehensive administration portal for the ICITÉ ecosystem centralizing daily management of participant registrations, manager accounts, cohorts, access permissions, analytics reports, and API services.",
         tech: ["React.js", "Node.js", "GraphQL", "TypeScript"]
     },
     {
         id: "icite-cms",
-        title: "ICITÉ — Headless CMS",
+        title: "ICITÉ — Custom Content Management System (CMS)",
         company: "Intact Insurance",
         category: "fullstack",
         image: require('../../media/cms-icite.jpg'),
-        desc_fr: "Gestionnaire de contenu (Headless CMS) développé et personnalisé sur mesure pour structurer, éditer et publier les différents formats de parcours et de modules de formation d'ICITÉ.",
-        desc_en: "Customized Headless Content Management System engineered to structure, author, and publish diverse interactive training modules and learning paths for ICITÉ.",
-        tech: ["Node.js", "Directus (Headless CMS)", "GraphQL", "MySQL"]
+        desc_fr: "Gestionnaire de contenu (CMS) développé et personnalisé sur mesure avec React.js et Node.js pour structurer, éditer et publier les différents types de parcours et de contenus de formation d'ICITÉ.",
+        desc_en: "Custom Content Management System (CMS) developed and tailored with React.js and Node.js to structure, author, and publish diverse interactive training modules and learning content for ICITÉ.",
+        tech: ["React.js", "Node.js", "GraphQL"]
     },
     {
         id: "intact-underwriter-tools",
@@ -45,8 +45,8 @@ const projects = [
         company: "Intact Insurance",
         category: "fullstack",
         image: require('../../media/outils-web-intact.jpg'),
-        desc_fr: "Suite d'outils et de calculateurs web sur mesure développés pour aider les souscripteurs d'Intact Assurance à automatiser et accélérer leurs tâches opérationnelles quotidiennes.",
-        desc_en: "Suite of custom web applications and workflow utilities engineered to help Intact Insurance underwriters automate and streamline specialized operational tasks.",
+        desc_fr: "Suite d'applications et d'outils web développés et maintenus pour assister des centaines de souscripteurs et de courtiers chaque jour dans l'exécution et l'automatisation de leurs tâches opérationnelles spécifiques.",
+        desc_en: "Suite of custom web applications and workflow utilities developed and maintained for hundreds of underwriters and brokers who rely on them every day to automate and streamline specialized operational tasks.",
         url: "https://experiencedeveloppement.net/outils/",
         tech: ["React.js", "Node.js", "TypeScript"]
     },
@@ -124,6 +124,7 @@ const projects = [
         desc_fr: "Développement et refonte du site web de la chaîne culturelle ICI ARTV de Radio-Canada, réalisé en coordination architecturale avec la plateforme ICI Explora.",
         desc_en: "Front-end redesign and development for Radio-Canada's arts and culture TV channel ICI ARTV, built in architectural coordination with the ICI Explora platform.",
         url: "https://ici.artv.ca/",
+        url_label: "ici.artv.ca",
         tech: ["PHP Twig", "Custom CMS", "JavaScript", "jQuery", "HTML5", "SCSS"]
     },
     {
