@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-developer/static/css/main.d0baa2f7.css",
-    "main.js": "/portfolio-developer/static/js/main.d058f583.js",
+    "main.js": "/portfolio-developer/static/js/main.8fa4bd97.js",
     "static/js/787.69a70f5a.chunk.js": "/portfolio-developer/static/js/787.69a70f5a.chunk.js",
     "static/media/zone-jeunnesse.jpg": "/portfolio-developer/static/media/zone-jeunnesse.15da0dfcafde62cdf156.jpg",
     "static/media/icite-parcours.jpg": "/portfolio-developer/static/media/icite-parcours.d8cef968201eba25665d.jpg",
@@ -32,11 +32,11 @@
     "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.3745be2145c1865d2b66.jpg",
     "index.html": "/portfolio-developer/index.html",
     "main.d0baa2f7.css.map": "/portfolio-developer/static/css/main.d0baa2f7.css.map",
-    "main.d058f583.js.map": "/portfolio-developer/static/js/main.d058f583.js.map",
+    "main.8fa4bd97.js.map": "/portfolio-developer/static/js/main.8fa4bd97.js.map",
     "787.69a70f5a.chunk.js.map": "/portfolio-developer/static/js/787.69a70f5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0baa2f7.css",
-    "static/js/main.d058f583.js"
+    "static/js/main.8fa4bd97.js"
   ]
 }
