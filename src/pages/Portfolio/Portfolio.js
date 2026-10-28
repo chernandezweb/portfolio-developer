@@ -50,11 +50,15 @@ const projects = [
         company: "Intact Insurance",
         category: "fullstack",
         images: [
-            require('../../media/outils-web-intact.jpg')
+            require('../../media/outils-intact-accueil.jpg'),
+            require('../../media/outils-intact-arbre.jpg'),
+            require('../../media/outils-intact-avis.jpg'),
+            require('../../media/outils-intact-soumissions.jpg'),
+            require('../../media/outils-intact-aide.jpg')
         ],
-        desc_fr: "Suite d'applications et d'outils web développés et maintenus pour assister des centaines de souscripteurs et de courtiers chaque jour dans l'exécution et l'automatisation de leurs tâches opérationnelles spécifiques.",
-        desc_en: "Suite of custom web applications and workflow utilities developed and maintained for hundreds of underwriters and brokers who rely on them every day to automate and streamline specialized operational tasks.",
-        url: "https://experiencedeveloppement.net/outils/",
+        desc_fr: "Portail et suite d'applications et d'outils web (arbres décisionnels, outils de soumission courtiers, aides à la tâche, avis de souscription, suivi statistique) développés et maintenus pour assister des centaines de souscripteurs et de courtiers chaque jour dans l'exécution et l'automatisation de leurs tâches opérationnelles spécifiques.",
+        desc_en: "Centralized hub and suite of custom web applications and workflow utilities (decision trees, broker quoting tools, underwriting guides, task assistants, and usage analytics) developed and maintained for hundreds of underwriters and brokers who rely on them every day to automate and streamline specialized operational tasks.",
+        url: "https://experiencedeveloppement.intactfc.com/outils/accueil/",
         tech: ["React.js", "Node.js", "TypeScript"]
     },
     {
