@@ -39,12 +39,12 @@ const careerTimeline = [
         period_fr: "Juillet 2019 – Présent",
         bullets_en: [
             "Architected, developed, and maintain ICITÉ from the ground up, an enterprise online training platform (Node.js, React.js, GraphQL) actively used every day by hundreds of brokers, underwriters, and internal employees.",
-            "Engineered the Learner Portal (LMS), Administration Portal, and a custom Content Management System (CMS) built with React.js and Node.js.",
+            "Engineered the Learner Portal (LMS) and the Administration Portal featuring an integrated custom Content Management System (CMS), reporting, cohort management, surveys, and virtual classrooms.",
             "Developed and maintain a suite of internal web applications and workflow tools (React.js, Node.js, TypeScript) relied upon daily by hundreds of underwriters to automate specialized tasks."
         ],
         bullets_fr: [
             "Conception, développement de A à Z et maintenance de la plateforme de formation en ligne ICITÉ (Node.js, React.js, GraphQL), utilisée chaque jour par des centaines de courtiers, de souscripteurs et d'employés.",
-            "Développement des trois modules clés : portail apprenant (LMS), portail d'administration et gestionnaire de contenu (CMS) personnalisé bâti avec React.js et Node.js.",
+            "Développement du portail apprenant (LMS) et du portail d'administration intégrant un gestionnaire de contenu (CMS) sur mesure, la gestion des cohortes, des rapports, des sondages et des classes virtuelles.",
             "Création et maintenance d'une suite d'outils web internes (React.js, Node.js, TypeScript) utilisés quotidiennement par des centaines de souscripteurs dans leurs tâches spécialisées."
         ]
     },

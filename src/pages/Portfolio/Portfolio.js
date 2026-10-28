@@ -28,27 +28,21 @@ const projects = [
     },
     {
         id: "icite-admin",
-        title: "ICITÉ — Administration Portal",
+        title: "ICITÉ — Administration & Content Management Portal (CMS)",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
+            require('../../media/admin-icite-accueil.jpg'),
+            require('../../media/admin-icite-cms.jpg'),
+            require('../../media/admin-icite-parcours.jpg'),
+            require('../../media/admin-icite-rapports.jpg'),
+            require('../../media/admin-icite-sondages.jpg'),
             require('../../media/admin-icite.jpg')
         ],
-        desc_fr: "Portail d'administration complet de l'écosystème ICITÉ centralisant la gestion quotidienne des inscriptions des participants, des gestionnaires, des cohortes, des permissions d'accès, des rapports analytiques et de l'API.",
-        desc_en: "Comprehensive administration portal for the ICITÉ ecosystem centralizing daily management of participant registrations, manager accounts, cohorts, access permissions, analytics reports, and API services.",
+        desc_fr: "Portail d'administration complet et gestionnaire de contenu (CMS) intégré de l'écosystème ICITÉ. Centralise la création et l'édition des parcours et modules de formation, la gestion quotidienne des inscriptions des participants, des gestionnaires, des cohortes, des classes virtuelles, des sondages, des certificats, des permissions d'accès et des rapports analytiques.",
+        desc_en: "Comprehensive administration portal and integrated Content Management System (CMS) for the ICITÉ ecosystem. Centralizes authoring and publishing of training paths and modules, daily management of participant registrations, manager accounts, cohorts, virtual classrooms, surveys, certificates, access permissions, and analytics reports.",
+        url: "https://admin.icite.intactfc.com/",
         tech: ["React.js", "Node.js", "GraphQL", "TypeScript"]
-    },
-    {
-        id: "icite-cms",
-        title: "ICITÉ — Custom Content Management System (CMS)",
-        company: "Intact Insurance",
-        category: "fullstack",
-        images: [
-            require('../../media/cms-icite.jpg')
-        ],
-        desc_fr: "Gestionnaire de contenu (CMS) développé et personnalisé sur mesure avec React.js et Node.js pour structurer, éditer et publier les différents types de parcours et de contenus de formation d'ICITÉ.",
-        desc_en: "Custom Content Management System (CMS) developed and tailored with React.js and Node.js to structure, author, and publish diverse interactive training modules and learning content for ICITÉ.",
-        tech: ["React.js", "Node.js", "GraphQL"]
     },
     {
         id: "intact-underwriter-tools",
