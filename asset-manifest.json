@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio-developer/static/css/main.414af0ca.css",
-    "main.js": "/portfolio-developer/static/js/main.78d74a42.js",
-    "static/js/787.0022e730.chunk.js": "/portfolio-developer/static/js/787.0022e730.chunk.js",
+    "main.js": "/portfolio-developer/static/js/main.80fe690f.js",
+    "static/js/787.69a70f5a.chunk.js": "/portfolio-developer/static/js/787.69a70f5a.chunk.js",
     "static/media/zone-jeunnesse.jpg": "/portfolio-developer/static/media/zone-jeunnesse.15da0dfcafde62cdf156.jpg",
+    "static/media/icite-parcours.jpg": "/portfolio-developer/static/media/icite-parcours.d8cef968201eba25665d.jpg",
+    "static/media/icite-info.jpg": "/portfolio-developer/static/media/icite-info.8e119d6b59c787158ee1.jpg",
+    "static/media/icite-formation-detail.jpg": "/portfolio-developer/static/media/icite-formation-detail.8a2c4e348e59b16cc00f.jpg",
     "static/media/clash.jpg": "/portfolio-developer/static/media/clash.1328bed0578eed2c85db.jpg",
+    "static/media/icite-accueil.jpg": "/portfolio-developer/static/media/icite-accueil.c8ca3523a445ffb8fd2e.jpg",
     "static/media/max-et-livia.jpg": "/portfolio-developer/static/media/max-et-livia.25bda8dd4c5abcde64dd.jpg",
     "static/media/zoo-granby-lions.jpg": "/portfolio-developer/static/media/zoo-granby-lions.2e6d1e3fcd5bd9292291.jpg",
     "static/media/admin-icite.jpg": "/portfolio-developer/static/media/admin-icite.e395ca09b9a4139403eb.jpg",
-    "static/media/icite-parcours.jpg": "/portfolio-developer/static/media/icite-parcours.13a2f8d545ca43136d5a.jpg",
+    "static/media/icite-certificates.jpg": "/portfolio-developer/static/media/icite-certificates.2d0653fc55b468bba80d.jpg",
     "static/media/cms-icite.jpg": "/portfolio-developer/static/media/cms-icite.859f96354eef1b53c01d.jpg",
     "static/media/on-joue-au-docteur.jpg": "/portfolio-developer/static/media/on-joue-au-docteur.3422bd4474b50fbaa994.jpg",
     "static/media/fous-des-bateaux.jpg": "/portfolio-developer/static/media/fous-des-bateaux.d3941dfa857e608d55de.jpg",
     "static/media/une-autre-histoire.jpg": "/portfolio-developer/static/media/une-autre-histoire.c5eba035317581bb49a1.jpg",
     "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).5487edd18c502b26d4e3.pdf",
     "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).2819239490c63fef7d8c.pdf",
-    "static/media/lms-icite.jpg": "/portfolio-developer/static/media/lms-icite.5cd79932734ac255b42a.jpg",
     "static/media/ibl.jpg": "/portfolio-developer/static/media/ibl.72b98afcece96ffc6fe2.jpg",
     "static/media/artv.jpg": "/portfolio-developer/static/media/artv.a5197a4c13aa8f6e8b82.jpg",
     "static/media/outils-web-intact.jpg": "/portfolio-developer/static/media/outils-web-intact.8f17c5b39e7f51b186c3.jpg",
@@ -25,11 +28,11 @@
     "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.3745be2145c1865d2b66.jpg",
     "index.html": "/portfolio-developer/index.html",
     "main.414af0ca.css.map": "/portfolio-developer/static/css/main.414af0ca.css.map",
-    "main.78d74a42.js.map": "/portfolio-developer/static/js/main.78d74a42.js.map",
-    "787.0022e730.chunk.js.map": "/portfolio-developer/static/js/787.0022e730.chunk.js.map"
+    "main.80fe690f.js.map": "/portfolio-developer/static/js/main.80fe690f.js.map",
+    "787.69a70f5a.chunk.js.map": "/portfolio-developer/static/js/787.69a70f5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.414af0ca.css",
-    "static/js/main.78d74a42.js"
+    "static/js/main.80fe690f.js"
   ]
 }
