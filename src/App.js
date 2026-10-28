@@ -21,7 +21,9 @@ function App() {
               <Route path="/portfolio-developer" element={<Home />} />
               <Route path="/portfolio-developer/" element={<Home />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/portfolio/" element={<Portfolio />} />
               <Route path="/portfolio-developer/portfolio" element={<Portfolio />} />
+              <Route path="/portfolio-developer/portfolio/" element={<Portfolio />} />
               <Route path="*" element={<Home />} />
             </Routes>
           </main>
