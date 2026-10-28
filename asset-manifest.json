@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-developer/static/css/main.c32effab.css",
-    "main.js": "/portfolio-developer/static/js/main.a5461fde.js",
+    "main.js": "/portfolio-developer/static/js/main.1763d65c.js",
     "static/js/787.0022e730.chunk.js": "/portfolio-developer/static/js/787.0022e730.chunk.js",
     "static/media/zone-jeunnesse.jpg": "/portfolio-developer/static/media/zone-jeunnesse.15da0dfcafde62cdf156.jpg",
     "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.50f4b445e183a58555e9.jpg",
@@ -13,8 +13,8 @@
     "static/media/on-joue-au-docteur.jpg": "/portfolio-developer/static/media/on-joue-au-docteur.3422bd4474b50fbaa994.jpg",
     "static/media/fous-des-bateaux.jpg": "/portfolio-developer/static/media/fous-des-bateaux.d3941dfa857e608d55de.jpg",
     "static/media/une-autre-histoire.jpg": "/portfolio-developer/static/media/une-autre-histoire.c5eba035317581bb49a1.jpg",
-    "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).2df99b0defb57261c5c9.pdf",
-    "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).c013669cb6b31ae52d55.pdf",
+    "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).5487edd18c502b26d4e3.pdf",
+    "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).2819239490c63fef7d8c.pdf",
     "static/media/lms-icite.jpg": "/portfolio-developer/static/media/lms-icite.5cd79932734ac255b42a.jpg",
     "static/media/ibl.jpg": "/portfolio-developer/static/media/ibl.72b98afcece96ffc6fe2.jpg",
     "static/media/artv.jpg": "/portfolio-developer/static/media/artv.a5197a4c13aa8f6e8b82.jpg",
@@ -23,11 +23,11 @@
     "static/media/legeropinion.jpg": "/portfolio-developer/static/media/legeropinion.1389148ee405b7f9e749.jpg",
     "index.html": "/portfolio-developer/index.html",
     "main.c32effab.css.map": "/portfolio-developer/static/css/main.c32effab.css.map",
-    "main.a5461fde.js.map": "/portfolio-developer/static/js/main.a5461fde.js.map",
+    "main.1763d65c.js.map": "/portfolio-developer/static/js/main.1763d65c.js.map",
     "787.0022e730.chunk.js.map": "/portfolio-developer/static/js/787.0022e730.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c32effab.css",
-    "static/js/main.a5461fde.js"
+    "static/js/main.1763d65c.js"
   ]
 }
