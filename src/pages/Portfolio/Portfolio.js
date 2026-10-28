@@ -14,8 +14,11 @@ const projects = [
         company: "Intact Insurance",
         category: "fullstack",
         images: [
+            require('../../media/icite-accueil.jpg'),
             require('../../media/icite-parcours.jpg'),
-            require('../../media/lms-icite.jpg'),
+            require('../../media/icite-formation-detail.jpg'),
+            require('../../media/icite-certificates.jpg'),
+            require('../../media/icite-info.jpg'),
             require('../../media/icite-login.jpg')
         ],
         desc_fr: "ICITÉ est une plateforme de formation en ligne d'entreprise développée de A à Z et maintenue au quotidien, utilisée chaque jour par des centaines de courtiers du réseau d'Intact Assurance ainsi que par les souscripteurs et les employés internes. Étant le seul développeur lors du lancement de cette initiative au sein de l'équipe Formation et Développement, j'ai conçu et bâti cette plateforme pour répondre aux besoins de formation spécialisés que les autres systèmes internes ne couvraient pas.",
