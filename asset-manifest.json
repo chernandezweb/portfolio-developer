@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio-developer/static/css/main.c32effab.css",
-    "main.js": "/portfolio-developer/static/js/main.1763d65c.js",
+    "main.js": "/portfolio-developer/static/js/main.f51e516f.js",
     "static/js/787.0022e730.chunk.js": "/portfolio-developer/static/js/787.0022e730.chunk.js",
     "static/media/zone-jeunnesse.jpg": "/portfolio-developer/static/media/zone-jeunnesse.15da0dfcafde62cdf156.jpg",
-    "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.50f4b445e183a58555e9.jpg",
     "static/media/clash.jpg": "/portfolio-developer/static/media/clash.1328bed0578eed2c85db.jpg",
     "static/media/max-et-livia.jpg": "/portfolio-developer/static/media/max-et-livia.25bda8dd4c5abcde64dd.jpg",
     "static/media/zoo-granby-lions.jpg": "/portfolio-developer/static/media/zoo-granby-lions.2e6d1e3fcd5bd9292291.jpg",
@@ -21,13 +20,14 @@
     "static/media/outils-web-intact.jpg": "/portfolio-developer/static/media/outils-web-intact.8f17c5b39e7f51b186c3.jpg",
     "static/media/explora.jpg": "/portfolio-developer/static/media/explora.5668c44287bc2d5edd95.jpg",
     "static/media/legeropinion.jpg": "/portfolio-developer/static/media/legeropinion.1389148ee405b7f9e749.jpg",
+    "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.3745be2145c1865d2b66.jpg",
     "index.html": "/portfolio-developer/index.html",
     "main.c32effab.css.map": "/portfolio-developer/static/css/main.c32effab.css.map",
-    "main.1763d65c.js.map": "/portfolio-developer/static/js/main.1763d65c.js.map",
+    "main.f51e516f.js.map": "/portfolio-developer/static/js/main.f51e516f.js.map",
     "787.0022e730.chunk.js.map": "/portfolio-developer/static/js/787.0022e730.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c32effab.css",
-    "static/js/main.1763d65c.js"
+    "static/js/main.f51e516f.js"
   ]
 }
