@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-developer/static/css/main.ebe50659.css",
-    "main.js": "/portfolio-developer/static/js/main.63b86629.js",
+    "main.css": "/portfolio-developer/static/css/main.c32effab.css",
+    "main.js": "/portfolio-developer/static/js/main.a5461fde.js",
     "static/js/787.0022e730.chunk.js": "/portfolio-developer/static/js/787.0022e730.chunk.js",
     "static/media/zone-jeunnesse.jpg": "/portfolio-developer/static/media/zone-jeunnesse.15da0dfcafde62cdf156.jpg",
     "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.50f4b445e183a58555e9.jpg",
-    "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).dfe4dbac154ed19a9ea2.pdf",
-    "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).442c69200195c3260eb2.pdf",
     "static/media/clash.jpg": "/portfolio-developer/static/media/clash.1328bed0578eed2c85db.jpg",
     "static/media/max-et-livia.jpg": "/portfolio-developer/static/media/max-et-livia.25bda8dd4c5abcde64dd.jpg",
     "static/media/zoo-granby-lions.jpg": "/portfolio-developer/static/media/zoo-granby-lions.2e6d1e3fcd5bd9292291.jpg",
@@ -15,6 +13,8 @@
     "static/media/on-joue-au-docteur.jpg": "/portfolio-developer/static/media/on-joue-au-docteur.3422bd4474b50fbaa994.jpg",
     "static/media/fous-des-bateaux.jpg": "/portfolio-developer/static/media/fous-des-bateaux.d3941dfa857e608d55de.jpg",
     "static/media/une-autre-histoire.jpg": "/portfolio-developer/static/media/une-autre-histoire.c5eba035317581bb49a1.jpg",
+    "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).2df99b0defb57261c5c9.pdf",
+    "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).c013669cb6b31ae52d55.pdf",
     "static/media/lms-icite.jpg": "/portfolio-developer/static/media/lms-icite.5cd79932734ac255b42a.jpg",
     "static/media/ibl.jpg": "/portfolio-developer/static/media/ibl.72b98afcece96ffc6fe2.jpg",
     "static/media/artv.jpg": "/portfolio-developer/static/media/artv.a5197a4c13aa8f6e8b82.jpg",
@@ -22,12 +22,12 @@
     "static/media/explora.jpg": "/portfolio-developer/static/media/explora.5668c44287bc2d5edd95.jpg",
     "static/media/legeropinion.jpg": "/portfolio-developer/static/media/legeropinion.1389148ee405b7f9e749.jpg",
     "index.html": "/portfolio-developer/index.html",
-    "main.ebe50659.css.map": "/portfolio-developer/static/css/main.ebe50659.css.map",
-    "main.63b86629.js.map": "/portfolio-developer/static/js/main.63b86629.js.map",
+    "main.c32effab.css.map": "/portfolio-developer/static/css/main.c32effab.css.map",
+    "main.a5461fde.js.map": "/portfolio-developer/static/js/main.a5461fde.js.map",
     "787.0022e730.chunk.js.map": "/portfolio-developer/static/js/787.0022e730.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebe50659.css",
-    "static/js/main.63b86629.js"
+    "static/css/main.c32effab.css",
+    "static/js/main.a5461fde.js"
   ]
 }
