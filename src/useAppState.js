@@ -1,41 +1,23 @@
 import React, { useState, useContext, useMemo } from 'react';
 import i18n from "i18next";
-import Cookies from 'js-cookie'
-
-/**
- * custom React hook to manage state
- */
+import Cookies from 'js-cookie';
 
 const AppContext = React.createContext({});
 
-// let baseName = '/';
-
-// if(window.location.hostname === "localhost"){
-//     baseName = ''
-// }
+const defaultLang = Cookies.get('lang') || 'en';
 
 const initialState = {
     pageName: "",
-    lang: Cookies.get('lang') ? Cookies.get('lang') : 'fr',
+    lang: defaultLang,
 };
-
-
 
 const useAppState = () => {
-
-    // Manage the state using React.useState()
     const [state, setState] = useState(initialState);
-
-    // Build our actions. We'll use useMemo() as an optimization,
-    // so this will only ever be called once.
     const actions = useMemo(() => getActions(setState), [setState]);
 
-    return { state, actions }
+    return { state, actions };
 };
 
-// Define your actions as functions that call setState().
-// It's a bit like Redux's dispatch(), but as individual
-// functions.
 const getActions = setState => ({
     setPageName: (name) => {
         setState(state => ({ ...state, pageName: name }));
@@ -47,13 +29,8 @@ const getActions = setState => ({
     }
 });
 
-
-// Sub-components can use this function. It will pick up the
-// `state` and `actions` given by useAppState() hig
-// her in the
-// component tree.
 const useAppContext = () => {
-    return useContext(AppContext)
+    return useContext(AppContext);
 };
 
-export { AppContext, useAppState, useAppContext }
+export { AppContext, useAppState, useAppContext };

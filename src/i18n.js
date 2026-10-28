@@ -1,54 +1,99 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import Cookies from 'js-cookie'
-
+import Cookies from 'js-cookie';
 
 const resources = {
     en: {
         translation: {
             "menu-home": "Home",
+            "menu-portfolio": "Portfolio",
             "home-page-full-stack-dev": "Full Stack Developer",
+            "home-page-hero-subtitle": "Building scalable enterprise platforms, modern web apps & custom tools with React, TypeScript, Node.js & GraphQL.",
+            "home-page-view-portfolio": "View Projects",
             "home-page-about-me-label-1": "About",
-            "home-page-about-me-label-2": "me",
-            "home-page-about-me-text": "Hello, I'm Carlos Hernandez. I am a experienced Full Stack Developer with 4+ years of experience developing websites and applications using the latest technologies.",
-            "home-page-download-resume": "DOWNLOAD RESUME",
-            "home-page-age": "Age",
+            "home-page-about-me-label-2": "Me",
+            "home-page-about-me-text": "Hello! I'm Carlos Hernandez, a Full Stack Developer based in Montreal with 8+ years of experience designing, architecting, and delivering modern web applications and enterprise platforms. From building Intact Insurance's ICITÉ training ecosystem (LMS, Admin Portal, and Headless CMS) from the ground up to delivering high-traffic platforms for major media and enterprise brands, I specialize in turning complex workflows into clean, reliable user experiences.",
+            "home-page-download-resume": "Download CV",
+            "home-page-experience-label": "Experience",
+            "home-page-experience-value": "8+ Years",
+            "home-page-role-label": "Current Role",
+            "home-page-role-value": "Full Stack Developer @ Intact Insurance",
             "home-page-languages": "Languages",
-            "home-page-languages-text": "French, English and Spanish",
+            "home-page-languages-text": "French, English, Spanish",
             "home-page-country": "Country",
-            "home-page-address": "Address",
+            "home-page-address": "Location",
             "home-page-email": "Email",
+            "home-page-phone": "Phone",
+            "home-page-skills-title-1": "Technical",
+            "home-page-skills-title-2": "Skills",
+            "skills-cat-languages": "Languages",
+            "skills-cat-frontend": "Front-End & Mobile",
+            "skills-cat-backend": "Back-End, APIs & CMS",
+            "skills-cat-tools": "Databases, Tools & Engines",
+            "home-page-career-title-1": "Work",
+            "home-page-career-title-2": "Experience",
+            "portfolio-subtitle": "A selection of enterprise platforms, web applications, hybrid mobile apps, and interactive experiences I have built.",
+            "filter-all": "All Projects",
+            "filter-fullstack": "Full Stack & Enterprise",
+            "filter-web": "Web & Media",
+            "filter-interactive": "Mobile & Interactive",
+            "visit-website": "Visit Website",
+            "url-private": "Internal / Archived Project",
+            "zoom-image": "Click to enlarge"
         }
     },
     fr: {
         translation: {
             "menu-home": "Accueil",
+            "menu-portfolio": "Portfolio",
             "home-page-full-stack-dev": "Développeur Full Stack",
+            "home-page-hero-subtitle": "Conception de plateformes d'entreprise évolutives, d'applications web modernes et d'outils sur mesure avec React, TypeScript, Node.js et GraphQL.",
+            "home-page-view-portfolio": "Voir mes projets",
             "home-page-about-me-label-1": "À propos de",
             "home-page-about-me-label-2": "moi",
-            "home-page-about-me-text": "Bonjour, je m'appelle Carlos Hernandez. Je suis un développeur Full Stack expérimenté avec plus de 4 ans d'expérience dans le développement de sites Web et d'applications utilisant les dernières technologies.",
-            "home-page-download-resume": "TÉLÉCHARGER MON CV",
-            "home-page-age": "Âge",
-            "home-page-languages": "Languages",
+            "home-page-about-me-text": "Bonjour ! Je m'appelle Carlos Hernandez, développeur Full Stack basé à Montréal comptant plus de 8 ans d'expérience dans la conception, l'architecture et la livraison d'applications web modernes et de plateformes d'entreprise. De la création complète de l'écosystème de formation ICITÉ chez Intact Assurance (LMS, portail d'administration et CMS Headless) à la réalisation de plateformes à fort trafic pour de grands médias, je transforme des besoins complexes en solutions performantes et intuitives.",
+            "home-page-download-resume": "Télécharger CV",
+            "home-page-experience-label": "Expérience",
+            "home-page-experience-value": "8+ ans",
+            "home-page-role-label": "Poste actuel",
+            "home-page-role-value": "Développeur Full Stack @ Intact Assurance",
+            "home-page-languages": "Langues",
             "home-page-languages-text": "Français, Anglais, Espagnol",
             "home-page-country": "Pays",
-            "home-page-address": "Adresse",
+            "home-page-address": "Localisation",
             "home-page-email": "Courriel",
+            "home-page-phone": "Téléphone",
+            "home-page-skills-title-1": "Compétences",
+            "home-page-skills-title-2": "Techniques",
+            "skills-cat-languages": "Langages",
+            "skills-cat-frontend": "Front-End & Mobile",
+            "skills-cat-backend": "Back-End, API & CMS",
+            "skills-cat-tools": "Bases de données, Outils & Moteurs",
+            "home-page-career-title-1": "Expérience",
+            "home-page-career-title-2": "Professionnelle",
+            "portfolio-subtitle": "Une sélection de plateformes d'entreprise, d'applications web, d'applications mobiles hybrides et d'expériences interactives que j'ai réalisées.",
+            "filter-all": "Tous les projets",
+            "filter-fullstack": "Full Stack & Entreprise",
+            "filter-web": "Web & Médias",
+            "filter-interactive": "Mobile & Interactif",
+            "visit-website": "Visiter le site",
+            "url-private": "Projet interne / archivé",
+            "zoom-image": "Cliquer pour agrandir"
         }
     }
 };
 
+const savedLang = Cookies.get('lang') || 'en';
+
 i18n
-    .use(initReactI18next) // passes i18n down to react-i18next
+    .use(initReactI18next)
     .init({
         resources,
-        lng: Cookies.get('lang') ? Cookies.get('lang') : 'en',
-        fallbackLng: Cookies.get('lang') ? Cookies.get('lang') : 'en', // use en if detected lng is not available
-
-        keySeparator: false, // we do not use keys in form messages.welcome
-
+        lng: savedLang,
+        fallbackLng: 'en',
+        keySeparator: false,
         interpolation: {
-            escapeValue: false // react already safes from xss
+            escapeValue: false
         }
     });
 
