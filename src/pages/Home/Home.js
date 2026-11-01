@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
-import avatarProfile from '../../media/avatar-profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFileDownload, faArrowRight, faBriefcase, faCode } from '@fortawesome/free-solid-svg-icons';
@@ -13,85 +12,71 @@ import resumeEN from '../../media/Carlos_Hernandez(EN).pdf';
 const skillGroups = [
     {
         labelKey: "skills-cat-languages",
-        items: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3 / SCSS", "SQL", "Python", "PHP"]
+        items: ["TypeScript", "JavaScript (ES6+)", "SQL", "HTML5", "CSS3 / SCSS", "Python", "PHP"]
     },
     {
         labelKey: "skills-cat-frontend",
-        items: ["React.js", "Angular", "Ionic (iOS / Android)", "Twig", "jQuery", "Responsive UI"]
+        items: ["React.js (Hooks, Context, Redux)", "Next.js", "Angular", "Ionic (iOS / Android)", "Tailwind CSS", "Responsive UI / WCAG"]
     },
     {
         labelKey: "skills-cat-backend",
-        items: ["Node.js", "GraphQL", "REST APIs", "Custom CMS Architecture"]
+        items: ["Node.js", "Express.js", "GraphQL (Apollo)", "RESTful APIs", "JWT / OAuth2 / SSO", "Custom CMS Architecture"]
     },
     {
         labelKey: "skills-cat-tools",
-        items: ["MySQL", "Git", "Unity Game Engine", "Adobe Creative Suite", "Agile / Scrum"]
+        items: ["PostgreSQL", "MySQL", "MongoDB", "Git & GitHub Actions (CI/CD)", "Docker", "Jest", "Agile / Scrum"]
     }
 ];
 
 const careerTimeline = [
     {
-        role_en: "Full Stack Developer",
-        role_fr: "Développeur Full Stack",
-        company: "Intact Insurance / Intact Assurance",
+        role_en: "Senior Full Stack Developer",
+        role_fr: "Développeur Full Stack Senior",
+        company: "Intact Insurance (Intact Financial Corporation)",
         location: "Montreal, QC",
         period_en: "July 2019 – Present",
         period_fr: "Juillet 2019 – Présent",
         bullets_en: [
-            "Architected, developed, and maintain ICITÉ from the ground up, an enterprise online training platform (Node.js, React.js, GraphQL) actively used every day by hundreds of brokers, underwriters, and internal employees.",
-            "Engineered the Learner Portal (LMS) and the Administration Portal featuring an integrated custom Content Management System (CMS), reporting, cohort management, surveys, and virtual classrooms.",
-            "Developed and maintain a suite of internal web applications and workflow tools (React.js, Node.js, TypeScript) relied upon daily by hundreds of underwriters to automate specialized tasks."
+            "Architected, developed, and maintain ICITÉ from the ground up, an enterprise Learning Management System (LMS) built with React.js, TypeScript, Node.js, and GraphQL serving 500+ active brokers, underwriters, and internal employees daily across Intact's national network.",
+            "Engineered the ICITÉ Administration Portal & integrated Custom CMS (React.js, Node.js, GraphQL, MySQL), enabling training managers to author learning paths, manage cohorts, schedule virtual classrooms, automate certificates, configure RBAC permissions, and export real-time analytics reports—reducing manual administration overhead by 70%.",
+            "Designed and maintain a centralized suite of mission-critical Underwriter Workflow & Web Tools (React.js, Node.js, TypeScript) relied upon daily by hundreds of underwriters to automate complex policy calculations and operational workflows."
         ],
         bullets_fr: [
-            "Conception, développement de A à Z et maintenance de la plateforme de formation en ligne ICITÉ (Node.js, React.js, GraphQL), utilisée chaque jour par des centaines de courtiers, de souscripteurs et d'employés.",
-            "Développement du portail apprenant (LMS) et du portail d'administration intégrant un gestionnaire de contenu (CMS) sur mesure, la gestion des cohortes, des rapports, des sondages et des classes virtuelles.",
-            "Création et maintenance d'une suite d'outils web internes (React.js, Node.js, TypeScript) utilisés quotidiennement par des centaines de souscripteurs dans leurs tâches spécialisées."
+            "Conception, développement de A à Z et maintenance de la plateforme d'apprentissage en ligne ICITÉ (React.js, TypeScript, Node.js, GraphQL), desservant plus de 500 courtiers, souscripteurs et employés actifs chaque jour à travers le réseau pancanadien.",
+            "Développement du Portail d'administration ICITÉ et de son gestionnaire de contenu (CMS) sur mesure intégré (React.js, Node.js, GraphQL, MySQL), réduisant de 70 % le temps de gestion manuelle des parcours, cohortes, classes virtuelles, certificats et rapports.",
+            "Création et maintenance d'une suite d'applications web et d'outils métiers (React.js, Node.js, TypeScript) utilisés quotidiennement par des centaines de souscripteurs pour automatiser des calculs complexes et des flux opérationnels critiques."
         ]
     },
     {
-        role_en: "Front-End Web Developer",
-        role_fr: "Développeur Web Front-End",
+        role_en: "Full Stack & Mobile Web Developer",
+        role_fr: "Développeur Web Full Stack & Mobile",
         company: "Version 10",
         location: "Montreal, QC",
         period_en: "July 2018 – July 2019",
         period_fr: "Juillet 2018 – Juillet 2019",
         bullets_en: [
-            "Developed front-end web platforms using a custom CMS and PHP Twig for Radio-Canada, Télé-Québec, ARTV, Explora, Vrak TV, Canal Vie, and Léger Marketing.",
-            "Built the cross-platform hybrid application Léger Opinion (LÉO) for Web, iOS, and Android using Ionic and Angular.",
-            "Created interactive Unity experiences for the Granby Zoo and LÜ gymnasium games."
+            "Engineered and launched the cross-platform web and mobile application Léger Opinion (LÉO) across Web, iOS, and Android using Angular, Ionic, TypeScript, and REST APIs, serving tens of thousands of active survey panelists across Canada.",
+            "Developed high-traffic, CMS-driven web applications and digital platforms for major national media and enterprise clients including Radio-Canada, Télé-Québec, ICI Explora, ICI ARTV, and Léger Marketing (Indice du bonheur).",
+            "Built real-time interactive digital applications for the Granby Zoo and LÜ / Radio-Canada using C# and modern component architectures."
         ],
         bullets_fr: [
-            "Développement front-end de plusieurs plateformes web avec un CMS sur mesure et PHP Twig pour Radio-Canada, Télé-Québec, ARTV, Explora, Vrak TV, Canal Vie et Léger Marketing.",
-            "Réalisation de l'application hybride multiplateforme Léger Opinion (LÉO) pour Web, iOS et Android avec Ionic et Angular.",
-            "Création d'expériences interactives avec Unity pour le Zoo de Granby et les jeux interactifs LÜ."
+            "Développement et déploiement de l'application web et mobile hybride multiplateforme Léger Opinion (LÉO) sur Web, iOS et Android avec Angular, Ionic, TypeScript et API REST, utilisée par des dizaines de milliers de panélistes au Canada.",
+            "Réalisation de plateformes web à fort trafic propulsées par un CMS sur mesure pour Radio-Canada, Télé-Québec, ICI Explora, ICI ARTV et Léger Marketing (Indice du bonheur).",
+            "Création d'applications interactives en temps réel pour le Zoo de Granby et LÜ / Radio-Canada."
         ]
     },
     {
-        role_en: "Catalog Designer & Web Integrator",
-        role_fr: "Designer de Catalogue & Intégrateur Web",
-        company: "Orly Cuisine",
+        role_en: "Front-End Web Developer",
+        role_fr: "Développeur Web Front-End",
+        company: "Mirum Digital Agency (WPP)",
         location: "Montreal, QC",
-        period_en: "May 2017 – August 2017",
-        period_fr: "Mai 2017 – Août 2017",
+        period_en: "March 2017 – August 2017",
+        period_fr: "Mars 2017 – Août 2017",
         bullets_en: [
-            "Designed and developed two brand showcase websites and led content integration for the company's commercial print catalog."
+            "Developed responsive front-end web interfaces and reusable UI components using JavaScript (ES6), HTML5, SCSS, and PHP for enterprise clients including TD Canada Trust, Adidas, Dairy Farmers of Canada, and UGO."
         ],
         bullets_fr: [
-            "Développement de deux sites web vitrines pour présenter deux marques de produits et intégration du catalogue imprimé."
-        ]
-    },
-    {
-        role_en: "Front-End Developer Intern",
-        role_fr: "Stagiaire Développeur Front-End",
-        company: "Mirum Digital Agency",
-        location: "Montreal, QC",
-        period_en: "March 2017 – May 2017",
-        period_fr: "Mars 2017 – Mai 2017",
-        bullets_en: [
-            "Contributed to front-end web projects using HTML, CSS, JavaScript, and PHP Twig for Dairy Farmers of Canada, Adidas, TD Canada Trust, and UGO."
-        ],
-        bullets_fr: [
-            "Développement front-end avec HTML, CSS, JavaScript et PHP Twig pour Producteurs laitiers du Canada, Adidas, TD Canada Trust et UGO."
+            "Développement d'interfaces web réactives et de composants UI réutilisables avec JavaScript (ES6), HTML5, SCSS et PHP pour TD Canada Trust, Adidas, Producteurs laitiers du Canada et UGO."
         ]
     }
 ];
@@ -115,9 +100,6 @@ const Home = () => {
             transition={{ duration: 0.3 }}
         >
             <div className="top-section">
-                <div className="avatar-side">
-                    <img src={avatarProfile} alt="Carlos Hernandez" />
-                </div>
                 <div className="name-side">
                     <span className="role-badge">{t('home-page-full-stack-dev')}</span>
                     <h1>Carlos Hernandez</h1>
@@ -130,7 +112,7 @@ const Home = () => {
                             <a href="https://github.com/chernandezweb" target="_blank" rel="noreferrer" aria-label="GitHub">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://www.linkedin.com/in/carlos-hernandez-7a0177133/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/carlos-hernandez-726761157/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                                 <FontAwesomeIcon icon={faLinkedinIn} />
                             </a>
                             <a href="mailto:chernandezweb@gmail.com" aria-label="Email">
@@ -177,7 +159,7 @@ const Home = () => {
                         </div>
                         <div className="info-row">
                             <span>{t('home-page-address')}</span>
-                            <span>Montreal, QC, Canada</span>
+                            <span>Montreal, QC, Canada (EST / UTC-5)</span>
                         </div>
                         <div className="info-row">
                             <span>{t('home-page-email')}</span>

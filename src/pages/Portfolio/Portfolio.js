@@ -10,7 +10,7 @@ import 'react-image-lightbox/style.css';
 const projects = [
     {
         id: "icite-lms",
-        title: "ICITÉ — Learning Management System (LMS)",
+        title: "ICITÉ — Enterprise Learning Management System (LMS)",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
@@ -21,14 +21,14 @@ const projects = [
             require('../../media/icite-info.jpg'),
             require('../../media/icite-login.jpg')
         ],
-        desc_fr: "ICITÉ est une plateforme de formation en ligne d'entreprise développée de A à Z et maintenue au quotidien, utilisée chaque jour par des centaines de courtiers du réseau d'Intact Assurance ainsi que par les souscripteurs et les employés internes. Étant le seul développeur lors du lancement de cette initiative au sein de l'équipe Formation et Développement, j'ai conçu et bâti cette plateforme pour répondre aux besoins de formation spécialisés que les autres systèmes internes ne couvraient pas.",
-        desc_en: "ICITÉ is an enterprise online training platform built from the ground up and actively maintained, serving hundreds of brokers across the Intact Insurance brokerage network as well as underwriters and internal employees every day. As the sole developer when launching this initiative within the Training and Development team, I architected and developed this platform to meet specialized training needs that other internal platforms could not address.",
+        desc_fr: "Plateforme d'apprentissage en ligne (LMS) d'entreprise conçue de A à Z et maintenue au quotidien, desservant chaque jour plus de 500 courtiers du réseau d'Intact Assurance ainsi que les souscripteurs et les employés internes. Architecture full-stack complète (React.js, TypeScript, Node.js, GraphQL) gérant les parcours d'apprentissage interactifs, le suivi de progression en temps réel, la délivrance automatisée de certificats d'accréditation et l'authentification sécurisée.",
+        desc_en: "Enterprise online Learning Management System (LMS) architected from the ground up and actively maintained, serving 500+ active brokers across the Intact Insurance brokerage network as well as underwriters and internal employees every day. Full-stack architecture (React.js, TypeScript, Node.js, GraphQL) powering interactive learning paths, real-time progress tracking, automated accreditation certificates, and secure authentication.",
         url: "https://icite.intactfc.com/",
-        tech: ["React.js", "Node.js", "GraphQL", "TypeScript"]
+        tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "MySQL"]
     },
     {
         id: "icite-admin",
-        title: "ICITÉ — Administration & Content Management Portal (CMS)",
+        title: "ICITÉ — Administration Portal & Integrated Custom CMS",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
@@ -39,161 +39,77 @@ const projects = [
             require('../../media/admin-icite-sondages.jpg'),
             require('../../media/admin-icite.jpg')
         ],
-        desc_fr: "Portail d'administration complet et gestionnaire de contenu (CMS) intégré de l'écosystème ICITÉ. Centralise la création et l'édition des parcours et modules de formation, la gestion quotidienne des inscriptions des participants, des gestionnaires, des cohortes, des classes virtuelles, des sondages, des certificats, des permissions d'accès et des rapports analytiques.",
-        desc_en: "Comprehensive administration portal and integrated Content Management System (CMS) for the ICITÉ ecosystem. Centralizes authoring and publishing of training paths and modules, daily management of participant registrations, manager accounts, cohorts, virtual classrooms, surveys, certificates, access permissions, and analytics reports.",
+        desc_fr: "Portail d'administration complet et système de gestion de contenu (CMS) sur mesure intégré de l'écosystème ICITÉ. Permet aux gestionnaires de formation de créer et publier des parcours et modules, et d'administrer au quotidien les inscriptions, les cohortes, les classes virtuelles, les sondages, les certificats, les permissions d'accès (RBAC) et les rapports analytiques en temps réel, réduisant de 70 % le temps de gestion manuelle.",
+        desc_en: "Comprehensive administration portal and custom-engineered Content Management System (CMS) for the ICITÉ ecosystem. Enables training managers to author and publish learning paths and modules, and centralizes daily management of participant registrations, cohorts, virtual classrooms, surveys, certificates, role-based access control (RBAC), and real-time analytics reports—reducing manual administration overhead by 70%.",
         url: "https://admin.icite.intactfc.com/",
-        tech: ["React.js", "Node.js", "GraphQL", "TypeScript"]
+        tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "Custom CMS", "RBAC"]
     },
     {
         id: "intact-underwriter-tools",
-        title: "Underwriter Workflow & Web Tools",
+        title: "Underwriter Workflow & Operational Web Tools Suite",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
             require('../../media/outils-intact-accueil.jpg')
         ],
-        desc_fr: "Portail et suite d'applications et d'outils web développés et maintenus pour assister des centaines de souscripteurs et de courtiers chaque jour dans l'exécution et l'automatisation de leurs tâches opérationnelles spécifiques.",
-        desc_en: "Centralized hub and suite of custom web applications and workflow utilities developed and maintained for hundreds of underwriters and brokers who rely on them every day to automate and streamline specialized operational tasks.",
+        desc_fr: "Portail centralisé et suite d'applications web métiers développés et maintenus pour assister chaque jour des centaines de souscripteurs et de courtiers dans l'automatisation de calculs complexes, l'évaluation des risques et l'exécution de leurs flux opérationnels critiques.",
+        desc_en: "Centralized hub and suite of mission-critical internal web applications developed and maintained for hundreds of underwriters and brokers who rely on them every day to automate complex policy calculations, risk assessments, and specialized operational workflows.",
         url: "https://experiencedeveloppement.intactfc.com/outils/accueil/",
-        tech: ["React.js", "Node.js", "TypeScript"]
+        tech: ["React.js", "TypeScript", "Node.js", "REST & GraphQL APIs"]
     },
     {
         id: "leger-opinion",
-        title: "Léger Opinion (LÉO)",
-        company: "Version 10 • Léger",
+        title: "Léger Opinion (LÉO) — Cross-Platform Web & Mobile App",
+        company: "Version 10 • Léger Marketing",
         category: "interactive",
         images: [
             require('../../media/legeropinion.jpg')
         ],
-        desc_fr: "Plateforme comprenant un site web marketing ainsi qu'une application hybride multiplateforme (Web, iOS et Android) permettant aux membres d'accéder aux sondages offerts par Léger et de recevoir des récompenses.",
-        desc_en: "Platform featuring a marketing website and a connected cross-platform hybrid application (Web, iOS, and Android) where users complete Léger surveys and earn rewards.",
+        desc_fr: "Plateforme comprenant un portail web ainsi qu'une application hybride multiplateforme (Web, iOS et Android) permettant à des dizaines de milliers de panélistes à travers le Canada de répondre aux sondages Léger et de gérer leurs récompenses.",
+        desc_en: "Cross-platform web portal and hybrid mobile application (Web, iOS, and Android) serving tens of thousands of active panelists across Canada to complete Léger surveys, track points, and redeem rewards.",
         url: "https://www.legeropinion.com/",
-        tech: ["Ionic", "Angular", "PHP Twig", "HTML5", "SCSS", "JavaScript"]
+        tech: ["Angular", "TypeScript", "Ionic (iOS / Android)", "REST APIs", "SCSS"]
     },
     {
         id: "indice-bonheur-leger",
-        title: "Indice du bonheur Léger",
-        company: "Version 10 • Léger",
+        title: "Indice du bonheur Léger — Interactive Analytics Platform",
+        company: "Version 10 • Léger Marketing",
         category: "web",
         images: [
             require('../../media/ibl.jpg')
         ],
-        desc_fr: "Plateforme web interactive permettant aux utilisateurs de répondre à trois types de questionnaires pour calculer et suivre leur indice de bonheur, leur indice d'humeur et leur indice de bonheur au travail.",
-        desc_en: "Interactive web platform where users complete three specialized questionnaires to measure and track their personal happiness index, mood index, and workplace happiness index.",
+        desc_fr: "Plateforme web interactive à fort trafic permettant aux utilisateurs de répondre à trois questionnaires spécialisés pour calculer, visualiser et suivre leur indice de bonheur personnel, leur indice d'humeur et leur indice de bonheur au travail.",
+        desc_en: "High-traffic interactive web platform where users complete three specialized assessment questionnaires to calculate, visualize, and track their personal happiness index, mood index, and workplace happiness index.",
         url: "https://indicedebonheur.com/",
-        tech: ["PHP Twig", "JavaScript", "jQuery", "HTML5", "SCSS"]
+        tech: ["JavaScript (ES6+)", "Custom CMS", "HTML5", "SCSS"]
+    },
+    {
+        id: "radio-canada-media-platforms",
+        title: "ICI Explora & ICI ARTV — National Media Web Portals",
+        company: "Version 10 • Radio-Canada",
+        category: "web",
+        images: [
+            require('../../media/explora.jpg'),
+            require('../../media/artv.jpg')
+        ],
+        desc_fr: "Architecture front-end et refonte complète des portails web officiels des chaînes télévisées spécialisées ICI Explora et ICI ARTV de Radio-Canada, propulsés par un gestionnaire de contenu (CMS) sur mesure à fort trafic.",
+        desc_en: "Front-end architecture and full redesign of the official high-traffic web portals for Radio-Canada's specialty television networks ICI Explora and ICI ARTV, powered by a custom content management system.",
+        url: "https://ici.exploratv.ca/",
+        tech: ["JavaScript (ES6+)", "Custom CMS", "Responsive UI", "HTML5", "SCSS"]
     },
     {
         id: "tournee-zone-jeunesse-lu",
-        title: "La tournée Zone Jeunesse (LÜ)",
-        company: "Version 10 • Radio-Canada",
+        title: "La tournée Zone Jeunesse (LÜ) & Interactive Experiences",
+        company: "Version 10 • Radio-Canada & Zoo de Granby",
         category: "interactive",
         images: [
-            require('../../media/zone-jeunnesse.jpg')
-        ],
-        video: 'https://ici.radio-canada.ca/tourneezonejeunesse/medias/videos/RC_TourneeZoneJeunesse_2020-generic.mp4',
-        desc_fr: "Développement de jeux interactifs projetés sur les murs de gymnases scolaires, permettant aux enfants d'interagir en temps réel en lançant des ballons sur les cibles projetées.",
-        desc_en: "Developed interactive games projected onto school gymnasium walls, enabling children to interact with the game environment in real time by throwing balls at projected targets.",
-        tech: ["Unity", "C#", "Interactive Projection"]
-    },
-    {
-        id: "zoo-granby-lions",
-        title: "Interactive Lions Zone Experience (Granby Zoo)",
-        company: "Version 10 • Zoo de Granby",
-        category: "interactive",
-        images: [
+            require('../../media/zone-jeunnesse.jpg'),
             require('../../media/zoo-granby-lions.jpg')
         ],
-        desc_fr: "Développement d'une borne et expérience interactive avec le moteur Unity présentant du contenu éducatif et ludique dans le pavillon de la zone des lions au Zoo de Granby.",
-        desc_en: "Engineered an interactive educational kiosk experience built with Unity and installed in the Lions Zone exhibit at the Granby Zoo.",
-        tech: ["Unity", "C#", "Interactive Kiosk"]
-    },
-    {
-        id: "une-autre-histoire",
-        title: "Une autre histoire (Personnages)",
-        company: "Version 10 • Radio-Canada",
-        category: "web",
-        images: [
-            require('../../media/une-autre-histoire.jpg')
-        ],
-        desc_fr: "Plateforme web interactive conçue pour présenter de façon créative l'univers et les personnages de la série télévisée « Une autre histoire » diffusée sur ICI Radio-Canada Télé.",
-        desc_en: "Creative interactive web showcase designed to present the characters and storylines of the Radio-Canada television series 'Une autre histoire'.",
-        url: "https://ici.radio-canada.ca/uneautrehistoirepersonnages/",
-        tech: ["PHP Twig", "JavaScript", "jQuery", "HTML5", "SCSS"]
-    },
-    {
-        id: "ici-explora",
-        title: "ICI Explora",
-        company: "Version 10 • Radio-Canada",
-        category: "web",
-        images: [
-            require('../../media/explora.jpg')
-        ],
-        desc_fr: "Refonte complète du site web officiel de la chaîne télévisée spécialisée ICI Explora de Radio-Canada, propulsée par un CMS interne sur mesure.",
-        desc_en: "Full front-end redesign and development of the official website for Radio-Canada's specialty science and discovery TV channel, ICI Explora.",
-        url: "https://ici.exploratv.ca/",
-        tech: ["PHP Twig", "Custom CMS", "JavaScript", "jQuery", "HTML5", "SCSS"]
-    },
-    {
-        id: "ici-artv",
-        title: "ICI ARTV",
-        company: "Version 10 • Radio-Canada",
-        category: "web",
-        images: [
-            require('../../media/artv.jpg')
-        ],
-        desc_fr: "Développement et refonte du site web de la chaîne culturelle ICI ARTV de Radio-Canada, réalisé en coordination architecturale avec la plateforme ICI Explora.",
-        desc_en: "Front-end redesign and development for Radio-Canada's arts and culture TV channel ICI ARTV, built in architectural coordination with the ICI Explora platform.",
-        url: "https://ici.artv.ca/",
-        tech: ["PHP Twig", "Custom CMS", "JavaScript", "jQuery", "HTML5", "SCSS"]
-    },
-    {
-        id: "clash-vrak",
-        title: "Clash (Vrak TV)",
-        company: "Version 10 • Vrak TV",
-        category: "web",
-        images: [
-            require('../../media/clash.jpg')
-        ],
-        desc_fr: "Développement front-end du portail web officiel de la série quotidienne « Clash » diffusée sur Vrak TV, regroupant vidéos, fiches de personnages et résumés d'épisodes.",
-        desc_en: "Front-end development for the official web portal of Vrak TV's daily drama series 'Clash', featuring video streaming, character profiles, and episode guides.",
-        tech: ["PHP Twig", "JavaScript", "jQuery", "HTML5", "SCSS"]
-    },
-    {
-        id: "on-joue-au-docteur",
-        title: "On joue au docteur (Canal Vie)",
-        company: "Version 10 • Canal Vie",
-        category: "web",
-        images: [
-            require('../../media/on-joue-au-docteur.jpg')
-        ],
-        desc_fr: "Développement front-end du site web officiel de l'émission « On joue au docteur » diffusée sur les ondes de Canal Vie.",
-        desc_en: "Front-end development for the official companion website of Canal Vie's television show 'On joue au docteur'.",
-        tech: ["PHP Twig", "JavaScript", "jQuery", "HTML5", "SCSS"]
-    },
-    {
-        id: "max-et-livia",
-        title: "Max et Livia (Vrak TV)",
-        company: "Version 10 • Vrak TV",
-        category: "web",
-        images: [
-            require('../../media/max-et-livia.jpg')
-        ],
-        desc_fr: "Développement front-end du site web officiel de la populaire série télévisée « Max et Livia ».",
-        desc_en: "Front-end web development for the hit television comedy series 'Max et Livia'.",
-        tech: ["PHP Twig", "JavaScript", "jQuery", "HTML5", "SCSS"]
-    },
-    {
-        id: "fous-des-bateaux",
-        title: "Fous des bateaux",
-        company: "Version 10",
-        category: "web",
-        images: [
-            require('../../media/fous-des-bateaux.jpg')
-        ],
-        desc_fr: "Développement front-end du site web de l'émission télévisée « Fous des bateaux ».",
-        desc_en: "Front-end web development for the television series 'Fous des bateaux'.",
-        tech: ["PHP Twig", "JavaScript", "jQuery", "HTML5", "SCSS"]
+        video: 'https://ici.radio-canada.ca/tourneezonejeunesse/medias/videos/RC_TourneeZoneJeunesse_2020-generic.mp4',
+        desc_fr: "Ingénierie d'applications interactives en temps réel avec Unity et C#, incluant des jeux projetés sur les murs de gymnases avec détection spatiale (LÜ / Radio-Canada) ainsi que des bornes éducatives interactives pour le pavillon des lions au Zoo de Granby.",
+        desc_en: "Engineered real-time interactive applications built with Unity and C#, including spatial-detection gymnasium projection games (LÜ / Radio-Canada) and interactive educational kiosk systems for the Granby Zoo.",
+        tech: ["C#", "Unity Engine", "Real-Time Interactive Systems"]
     }
 ];
 
