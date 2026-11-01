@@ -20,7 +20,7 @@ const skillGroups = [
     },
     {
         labelKey: "skills-cat-backend",
-        items: ["Node.js", "Express.js", "GraphQL", "REST APIs", "Custom CMS Architecture"]
+        items: ["Node.js", "GraphQL", "REST APIs", "Custom CMS Architecture"]
     },
     {
         labelKey: "skills-cat-tools",
