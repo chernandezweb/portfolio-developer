@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-developer/static/css/main.d0baa2f7.css",
-    "main.js": "/portfolio-developer/static/js/main.8fa4bd97.js",
-    "static/js/787.69a70f5a.chunk.js": "/portfolio-developer/static/js/787.69a70f5a.chunk.js",
+    "main.js": "/portfolio-developer/static/js/main.77af158e.js",
+    "static/js/787.0022e730.chunk.js": "/portfolio-developer/static/js/787.0022e730.chunk.js",
     "static/media/zone-jeunnesse.jpg": "/portfolio-developer/static/media/zone-jeunnesse.15da0dfcafde62cdf156.jpg",
     "static/media/icite-parcours.jpg": "/portfolio-developer/static/media/icite-parcours.d8cef968201eba25665d.jpg",
     "static/media/admin-icite-parcours.jpg": "/portfolio-developer/static/media/admin-icite-parcours.67e18d4e9a847ee4ce06.jpg",
@@ -10,33 +10,27 @@
     "static/media/icite-info.jpg": "/portfolio-developer/static/media/icite-info.8e119d6b59c787158ee1.jpg",
     "static/media/icite-formation-detail.jpg": "/portfolio-developer/static/media/icite-formation-detail.8a2c4e348e59b16cc00f.jpg",
     "static/media/outils-intact-accueil.jpg": "/portfolio-developer/static/media/outils-intact-accueil.b312d2618aea37f708a9.jpg",
-    "static/media/clash.jpg": "/portfolio-developer/static/media/clash.1328bed0578eed2c85db.jpg",
     "static/media/icite-accueil.jpg": "/portfolio-developer/static/media/icite-accueil.c8ca3523a445ffb8fd2e.jpg",
-    "static/media/max-et-livia.jpg": "/portfolio-developer/static/media/max-et-livia.25bda8dd4c5abcde64dd.jpg",
     "static/media/zoo-granby-lions.jpg": "/portfolio-developer/static/media/zoo-granby-lions.2e6d1e3fcd5bd9292291.jpg",
     "static/media/admin-icite.jpg": "/portfolio-developer/static/media/admin-icite.e395ca09b9a4139403eb.jpg",
     "static/media/icite-certificates.jpg": "/portfolio-developer/static/media/icite-certificates.2d0653fc55b468bba80d.jpg",
     "static/media/admin-icite-accueil.jpg": "/portfolio-developer/static/media/admin-icite-accueil.029b0cdfb3b2aa6edb9c.jpg",
-    "static/media/on-joue-au-docteur.jpg": "/portfolio-developer/static/media/on-joue-au-docteur.3422bd4474b50fbaa994.jpg",
     "static/media/admin-icite-sondages.jpg": "/portfolio-developer/static/media/admin-icite-sondages.0cba415637e8314013b8.jpg",
     "static/media/admin-icite-rapports.jpg": "/portfolio-developer/static/media/admin-icite-rapports.39f392fed171e2382d1f.jpg",
-    "static/media/fous-des-bateaux.jpg": "/portfolio-developer/static/media/fous-des-bateaux.d3941dfa857e608d55de.jpg",
-    "static/media/une-autre-histoire.jpg": "/portfolio-developer/static/media/une-autre-histoire.c5eba035317581bb49a1.jpg",
-    "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).5938f3e14ff25bca990f.pdf",
-    "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).2241bb0a45f837d77f85.pdf",
+    "static/media/Carlos_Hernandez(FR).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(FR).ba87b3691fe62c42425b.pdf",
+    "static/media/Carlos_Hernandez(EN).pdf": "/portfolio-developer/static/media/Carlos_Hernandez(EN).3fcafd0372c3f12e495b.pdf",
     "static/media/ibl.jpg": "/portfolio-developer/static/media/ibl.72b98afcece96ffc6fe2.jpg",
     "static/media/artv.jpg": "/portfolio-developer/static/media/artv.a5197a4c13aa8f6e8b82.jpg",
     "static/media/explora.jpg": "/portfolio-developer/static/media/explora.5668c44287bc2d5edd95.jpg",
     "static/media/legeropinion.jpg": "/portfolio-developer/static/media/legeropinion.1389148ee405b7f9e749.jpg",
     "static/media/icite-login.jpg": "/portfolio-developer/static/media/icite-login.c62c438da9b27f7df5ef.jpg",
-    "static/media/avatar-profile.jpg": "/portfolio-developer/static/media/avatar-profile.3745be2145c1865d2b66.jpg",
     "index.html": "/portfolio-developer/index.html",
     "main.d0baa2f7.css.map": "/portfolio-developer/static/css/main.d0baa2f7.css.map",
-    "main.8fa4bd97.js.map": "/portfolio-developer/static/js/main.8fa4bd97.js.map",
-    "787.69a70f5a.chunk.js.map": "/portfolio-developer/static/js/787.69a70f5a.chunk.js.map"
+    "main.77af158e.js.map": "/portfolio-developer/static/js/main.77af158e.js.map",
+    "787.0022e730.chunk.js.map": "/portfolio-developer/static/js/787.0022e730.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0baa2f7.css",
-    "static/js/main.8fa4bd97.js"
+    "static/js/main.77af158e.js"
   ]
 }
