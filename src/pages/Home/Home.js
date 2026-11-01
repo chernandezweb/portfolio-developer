@@ -12,19 +12,19 @@ import resumeEN from '../../media/Carlos_Hernandez(EN).pdf';
 const skillGroups = [
     {
         labelKey: "skills-cat-languages",
-        items: ["TypeScript", "JavaScript (ES6+)", "SQL", "HTML5", "CSS3 / SCSS", "Python", "PHP"]
+        items: ["TypeScript", "JavaScript", "SQL", "HTML / CSS", "Python", "PHP"]
     },
     {
         labelKey: "skills-cat-frontend",
-        items: ["React.js (Hooks, Context, Redux)", "Next.js", "Angular", "Ionic (iOS / Android)", "Tailwind CSS", "Responsive UI / WCAG"]
+        items: ["React.js", "Next.js", "Angular"]
     },
     {
         labelKey: "skills-cat-backend",
-        items: ["Node.js", "Express.js", "GraphQL (Apollo)", "RESTful APIs", "JWT / OAuth2 / SSO", "Custom CMS Architecture"]
+        items: ["Node.js", "Express.js", "GraphQL", "REST APIs", "Custom CMS Architecture"]
     },
     {
         labelKey: "skills-cat-tools",
-        items: ["PostgreSQL", "MySQL", "MongoDB", "Git & GitHub Actions (CI/CD)", "Docker", "Jest", "Agile / Scrum"]
+        items: ["PostgreSQL", "MySQL", "MongoDB", "Git", "Docker", "CI/CD (GitHub Actions)", "Agile / Scrum"]
     }
 ];
 
@@ -55,12 +55,12 @@ const careerTimeline = [
         period_en: "July 2018 – July 2019",
         period_fr: "Juillet 2018 – Juillet 2019",
         bullets_en: [
-            "Engineered and launched the cross-platform web and mobile application Léger Opinion (LÉO) across Web, iOS, and Android using Angular, Ionic, TypeScript, and REST APIs, serving tens of thousands of active survey panelists across Canada.",
+            "Engineered and launched the cross-platform web and mobile application Léger Opinion (LÉO) across Web, iOS, and Android using Angular, TypeScript, and REST APIs, serving tens of thousands of active survey panelists across Canada.",
             "Developed high-traffic, CMS-driven web applications and digital platforms for major national media and enterprise clients including Radio-Canada, Télé-Québec, ICI Explora, ICI ARTV, and Léger Marketing (Indice du bonheur).",
             "Built real-time interactive digital applications for the Granby Zoo and LÜ / Radio-Canada using C# and modern component architectures."
         ],
         bullets_fr: [
-            "Développement et déploiement de l'application web et mobile hybride multiplateforme Léger Opinion (LÉO) sur Web, iOS et Android avec Angular, Ionic, TypeScript et API REST, utilisée par des dizaines de milliers de panélistes au Canada.",
+            "Développement et déploiement de l'application web et mobile multiplateforme Léger Opinion (LÉO) sur Web, iOS et Android avec Angular, TypeScript et API REST, utilisée par des dizaines de milliers de panélistes au Canada.",
             "Réalisation de plateformes web à fort trafic propulsées par un CMS sur mesure pour Radio-Canada, Télé-Québec, ICI Explora, ICI ARTV et Léger Marketing (Indice du bonheur).",
             "Création d'applications interactives en temps réel pour le Zoo de Granby et LÜ / Radio-Canada."
         ]
@@ -73,10 +73,10 @@ const careerTimeline = [
         period_en: "March 2017 – August 2017",
         period_fr: "Mars 2017 – Août 2017",
         bullets_en: [
-            "Developed responsive front-end web interfaces and reusable UI components using JavaScript (ES6), HTML5, SCSS, and PHP for enterprise clients including TD Canada Trust, Adidas, Dairy Farmers of Canada, and UGO."
+            "Developed responsive front-end web interfaces and reusable UI components using JavaScript, HTML, CSS, and PHP for enterprise clients including TD Canada Trust, Adidas, Dairy Farmers of Canada, and UGO."
         ],
         bullets_fr: [
-            "Développement d'interfaces web réactives et de composants UI réutilisables avec JavaScript (ES6), HTML5, SCSS et PHP pour TD Canada Trust, Adidas, Producteurs laitiers du Canada et UGO."
+            "Développement d'interfaces web réactives et de composants UI réutilisables avec JavaScript, HTML, CSS et PHP pour TD Canada Trust, Adidas, Producteurs laitiers du Canada et UGO."
         ]
     }
 ];

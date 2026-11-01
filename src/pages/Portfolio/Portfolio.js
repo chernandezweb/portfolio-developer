@@ -65,10 +65,10 @@ const projects = [
         images: [
             require('../../media/legeropinion.jpg')
         ],
-        desc_fr: "Plateforme comprenant un portail web ainsi qu'une application hybride multiplateforme (Web, iOS et Android) permettant à des dizaines de milliers de panélistes à travers le Canada de répondre aux sondages Léger et de gérer leurs récompenses.",
-        desc_en: "Cross-platform web portal and hybrid mobile application (Web, iOS, and Android) serving tens of thousands of active panelists across Canada to complete Léger surveys, track points, and redeem rewards.",
+        desc_fr: "Plateforme comprenant un portail web ainsi qu'une application mobile multiplateforme (Web, iOS et Android) permettant à des dizaines de milliers de panélistes à travers le Canada de répondre aux sondages Léger et de gérer leurs récompenses.",
+        desc_en: "Cross-platform web portal and mobile application (Web, iOS, and Android) serving tens of thousands of active panelists across Canada to complete Léger surveys, track points, and redeem rewards.",
         url: "https://www.legeropinion.com/",
-        tech: ["Angular", "TypeScript", "Ionic (iOS / Android)", "REST APIs", "SCSS"]
+        tech: ["Angular", "TypeScript", "REST APIs"]
     },
     {
         id: "indice-bonheur-leger",
@@ -81,7 +81,7 @@ const projects = [
         desc_fr: "Plateforme web interactive à fort trafic permettant aux utilisateurs de répondre à trois questionnaires spécialisés pour calculer, visualiser et suivre leur indice de bonheur personnel, leur indice d'humeur et leur indice de bonheur au travail.",
         desc_en: "High-traffic interactive web platform where users complete three specialized assessment questionnaires to calculate, visualize, and track their personal happiness index, mood index, and workplace happiness index.",
         url: "https://indicedebonheur.com/",
-        tech: ["JavaScript (ES6+)", "Custom CMS", "HTML5", "SCSS"]
+        tech: ["JavaScript", "Custom CMS", "HTML / CSS"]
     },
     {
         id: "radio-canada-media-platforms",
@@ -95,7 +95,7 @@ const projects = [
         desc_fr: "Architecture front-end et refonte complète des portails web officiels des chaînes télévisées spécialisées ICI Explora et ICI ARTV de Radio-Canada, propulsés par un gestionnaire de contenu (CMS) sur mesure à fort trafic.",
         desc_en: "Front-end architecture and full redesign of the official high-traffic web portals for Radio-Canada's specialty television networks ICI Explora and ICI ARTV, powered by a custom content management system.",
         url: "https://ici.exploratv.ca/",
-        tech: ["JavaScript (ES6+)", "Custom CMS", "Responsive UI", "HTML5", "SCSS"]
+        tech: ["JavaScript", "Custom CMS", "HTML / CSS"]
     },
     {
         id: "tournee-zone-jeunesse-lu",
