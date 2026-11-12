@@ -22,7 +22,7 @@ const projects = [
             require('../../media/icite-login.jpg')
         ],
         desc_fr: "Écosystème bilingue (français/anglais) d'apprentissage en ligne pour les employés, courtiers et apprenants du réseau d'Intact. La plateforme dessert environ 31 000 apprenants actifs, compte 136 parcours de formation publiés, 1,5 million d'inscriptions aux modules et 125 000 dossiers de progression (conçue pour supporter plus de 1 000 apprenants simultanés). Bâtie avec React, Node.js, API GraphQL/REST, Sequelize, Azure MySQL Flexible Server, SAML SSO et authentification JWT.",
-        desc_en: "Bilingual (French/English) enterprise learning platform ecosystem for Intact employees, insurance brokers, and learners. Documented as serving approximately 31,000 active learners with 136 published learning paths, ~1.5 million module enrollments, and ~125,000 progress records (engineered for 1,000+ concurrent learners). Built on React, Node.js, GraphQL & REST APIs, Sequelize ORM, Azure MySQL Flexible Server, SAML SSO, and JWT access.",
+        desc_en: "Bilingual (French/English) enterprise learning platform ecosystem for Intact employees, insurance brokers, and learners. Serving approximately 31,000 active learners with 136 published learning paths, ~1.5 million module enrollments, and ~125,000 progress records (engineered for 1,000+ concurrent learners). Built on React, Node.js, GraphQL & REST APIs, Sequelize ORM, Azure MySQL Flexible Server, SAML SSO, and JWT access.",
         url: "https://icite.intactfc.com/",
         tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "Sequelize", "Azure MySQL", "SAML SSO"]
     },
