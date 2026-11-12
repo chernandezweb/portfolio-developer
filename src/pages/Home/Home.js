@@ -12,19 +12,19 @@ import resumeEN from '../../media/Carlos_Hernandez(EN).pdf';
 const skillGroups = [
     {
         labelKey: "skills-cat-languages",
-        items: ["TypeScript", "JavaScript", "SQL", "HTML / CSS", "Python", "PHP"]
+        items: ["TypeScript", "JavaScript (ES6+)", "SQL", "HTML5 / CSS3 / SASS", "Python", "PHP", "C#", "Bash"]
     },
     {
         labelKey: "skills-cat-frontend",
-        items: ["React.js", "Next.js", "Angular"]
+        items: ["React.js", "Material UI (MUI)", "Ant Design (AntD)", "Angular", "Responsive SPA", "Web Performance"]
     },
     {
         labelKey: "skills-cat-backend",
-        items: ["Node.js", "GraphQL", "REST APIs", "Custom CMS Architecture"]
+        items: ["Node.js", "GraphQL (Apollo)", "REST APIs", "Sequelize ORM", "Custom CMS", "SAML SSO / JWT / RBAC"]
     },
     {
         labelKey: "skills-cat-tools",
-        items: ["PostgreSQL", "MySQL", "MongoDB", "Git", "Docker", "CI/CD (GitHub Actions)", "Agile / Scrum"]
+        items: ["Azure MySQL Flexible Server", "MySQL", "Microsoft Azure", "Terraform", "Docker", "CI/CD (GitHub Actions)", "Git", "Jest"]
     }
 ];
 
@@ -37,14 +37,16 @@ const careerTimeline = [
         period_en: "July 2019 – Present",
         period_fr: "Juillet 2019 – Présent",
         bullets_en: [
-            "Architected, developed, and maintain ICITÉ from the ground up, an enterprise Learning Management System (LMS) built with React.js, TypeScript, Node.js, and GraphQL serving 500+ active brokers, underwriters, and internal employees daily across Intact's national network.",
-            "Engineered the ICITÉ Administration Portal & integrated Custom CMS (React.js, Node.js, GraphQL, MySQL), enabling training managers to author learning paths, manage cohorts, schedule virtual classrooms, automate certificates, configure RBAC permissions, and export real-time analytics reports—reducing manual administration overhead by 70%.",
-            "Designed and maintain a centralized suite of mission-critical Underwriter Workflow & Web Tools (React.js, Node.js, TypeScript) relied upon daily by hundreds of underwriters to automate complex policy calculations and operational workflows."
+            "Architected and scaled iCité, a bilingual enterprise learning platform and administrative CMS ecosystem (React, Node.js, GraphQL, REST APIs, Sequelize ORM, Azure MySQL, SAML SSO, JWT) serving ~31,000 active learners with 136 published learning paths, ~1.5M module enrollments, and ~125,000 progress records.",
+            "Engineered the iCité Administration Portal & in-house CMS, delivering comprehensive tools for course authoring, SCORM-based training, cohort management, automated certification, assessments, and real-time operational reporting.",
+            "Developed Planiflow and internal operational workflow applications (React, Material UI, Node.js APIs, Sequelize, MySQL, SSO integration) centralizing request/task management, milestone tracking, team permissions, and reporting dashboards.",
+            "Contributed to cloud infrastructure, security, and automated delivery: Microsoft Azure, Terraform, Azure MySQL Flexible Server, Apache, PM2, Azure Front Door WAF, and shared GitHub Actions CI/CD workflows used across 86 DEV/PROD repositories."
         ],
         bullets_fr: [
-            "Conception, développement de A à Z et maintenance de la plateforme d'apprentissage en ligne ICITÉ (React.js, TypeScript, Node.js, GraphQL), desservant plus de 500 courtiers, souscripteurs et employés actifs chaque jour à travers le réseau pancanadien.",
-            "Développement du Portail d'administration ICITÉ et de son gestionnaire de contenu (CMS) sur mesure intégré (React.js, Node.js, GraphQL, MySQL), réduisant de 70 % le temps de gestion manuelle des parcours, cohortes, classes virtuelles, certificats et rapports.",
-            "Création et maintenance d'une suite d'applications web et d'outils métiers (React.js, Node.js, TypeScript) utilisés quotidiennement par des centaines de souscripteurs pour automatiser des calculs complexes et des flux opérationnels critiques."
+            "Architecture et développement d'iCité, écosystème d'apprentissage et d'administration d'entreprise (React, Node.js, GraphQL, API REST, Sequelize, Azure MySQL, SAML SSO, JWT) desservant environ 31 000 apprenants actifs avec 136 parcours publiés, 1,5M d'inscriptions aux modules et 125 000 dossiers de progression.",
+            "Développement du Portail d'administration et CMS sur mesure iCité, intégrant la création de cours, formations SCORM, gestion des cohortes, certificats automatisés, évaluations et rapports opérationnels en temps réel.",
+            "Conception et maintenance de Planiflow et d'outils de flux opérationnels (React, Material UI, API Node.js, Sequelize, MySQL, SSO) centralisant la gestion des requêtes/tâches, le suivi des jalons, les permissions d'équipe et les tableaux de bord.",
+            "Contribution à l'infrastructure infonuagique, à la sécurité et à la livraison continue : Microsoft Azure, Terraform, Azure MySQL, Apache, PM2, Azure Front Door & WAF et pipelines CI/CD partagés (GitHub Actions) sur 86 dépôts DEV/PROD."
         ]
     },
     {
@@ -112,7 +114,7 @@ const Home = () => {
                             <a href="https://github.com/chernandezweb" target="_blank" rel="noreferrer" aria-label="GitHub">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://www.linkedin.com/in/carlos-hernandez-726761157/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/carlos-hernandez-7a0177133/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                                 <FontAwesomeIcon icon={faLinkedinIn} />
                             </a>
                             <a href="mailto:chernandezweb@gmail.com" aria-label="Email">

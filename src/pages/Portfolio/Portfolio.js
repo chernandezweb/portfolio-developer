@@ -10,7 +10,7 @@ import 'react-image-lightbox/style.css';
 const projects = [
     {
         id: "icite-lms",
-        title: "ICITÉ — Enterprise Learning Management System (LMS)",
+        title: "iCité — Enterprise Learning & Education Platform",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
@@ -21,14 +21,14 @@ const projects = [
             require('../../media/icite-info.jpg'),
             require('../../media/icite-login.jpg')
         ],
-        desc_fr: "Plateforme d'apprentissage en ligne (LMS) d'entreprise conçue de A à Z et maintenue au quotidien, desservant chaque jour plus de 500 courtiers du réseau d'Intact Assurance ainsi que les souscripteurs et les employés internes. Architecture full-stack complète (React.js, TypeScript, Node.js, GraphQL) gérant les parcours d'apprentissage interactifs, le suivi de progression en temps réel, la délivrance automatisée de certificats d'accréditation et l'authentification sécurisée.",
-        desc_en: "Enterprise online Learning Management System (LMS) architected from the ground up and actively maintained, serving 500+ active brokers across the Intact Insurance brokerage network as well as underwriters and internal employees every day. Full-stack architecture (React.js, TypeScript, Node.js, GraphQL) powering interactive learning paths, real-time progress tracking, automated accreditation certificates, and secure authentication.",
+        desc_fr: "Écosystème bilingue (français/anglais) d'apprentissage en ligne pour les employés, courtiers et apprenants du réseau d'Intact. La plateforme dessert environ 31 000 apprenants actifs, compte 136 parcours de formation publiés, 1,5 million d'inscriptions aux modules et 125 000 dossiers de progression (conçue pour supporter plus de 1 000 apprenants simultanés). Bâtie avec React, Node.js, API GraphQL/REST, Sequelize, Azure MySQL Flexible Server, SAML SSO et authentification JWT.",
+        desc_en: "Bilingual (French/English) enterprise learning platform ecosystem for Intact employees, insurance brokers, and learners. Documented as serving approximately 31,000 active learners with 136 published learning paths, ~1.5 million module enrollments, and ~125,000 progress records (engineered for 1,000+ concurrent learners). Built on React, Node.js, GraphQL & REST APIs, Sequelize ORM, Azure MySQL Flexible Server, SAML SSO, and JWT access.",
         url: "https://icite.intactfc.com/",
-        tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "MySQL"]
+        tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "Sequelize", "Azure MySQL", "SAML SSO"]
     },
     {
         id: "icite-admin",
-        title: "ICITÉ — Administration Portal & Integrated Custom CMS",
+        title: "iCité — Administration Portal & Custom CMS",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
@@ -39,23 +39,23 @@ const projects = [
             require('../../media/admin-icite-sondages.jpg'),
             require('../../media/admin-icite.jpg')
         ],
-        desc_fr: "Portail d'administration complet et système de gestion de contenu (CMS) sur mesure intégré de l'écosystème ICITÉ. Permet aux gestionnaires de formation de créer et publier des parcours et modules, et d'administrer au quotidien les inscriptions, les cohortes, les classes virtuelles, les sondages, les certificats, les permissions d'accès (RBAC) et les rapports analytiques en temps réel, réduisant de 70 % le temps de gestion manuelle.",
-        desc_en: "Comprehensive administration portal and custom-engineered Content Management System (CMS) for the ICITÉ ecosystem. Enables training managers to author and publish learning paths and modules, and centralizes daily management of participant registrations, cohorts, virtual classrooms, surveys, certificates, role-based access control (RBAC), and real-time analytics reports—reducing manual administration overhead by 70%.",
+        desc_fr: "Portail d'administration complet et CMS sur mesure de l'écosystème iCité. Outils dédiés aux formateurs et gestionnaires : création et publication de parcours, modules SCORM, cohortes, classes virtuelles, sondages, certificats automatisés, permissions d'accès RBAC et rapports d'analyse opérationnels en temps réel.",
+        desc_en: "Comprehensive administration portal and custom-engineered Content Management System (CMS) for the iCité ecosystem. Provides instructor and admin tools for authoring learning paths, SCORM-based training, cohort management, virtual classrooms, automated certification, surveys, role-based access control (RBAC), and real-time operational reporting.",
         url: "https://admin.icite.intactfc.com/",
-        tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "Custom CMS", "RBAC"]
+        tech: ["React.js", "TypeScript", "Node.js", "GraphQL", "Custom CMS", "RBAC", "Reporting"]
     },
     {
         id: "intact-underwriter-tools",
-        title: "Underwriter Workflow & Operational Web Tools Suite",
+        title: "Planiflow & Internal Workflow Operations Suite",
         company: "Intact Insurance",
         category: "fullstack",
         images: [
             require('../../media/outils-intact-accueil.jpg')
         ],
-        desc_fr: "Portail centralisé et suite d'applications web métiers développés et maintenus pour assister chaque jour des centaines de souscripteurs et de courtiers dans l'automatisation de calculs complexes, l'évaluation des risques et l'exécution de leurs flux opérationnels critiques.",
-        desc_en: "Centralized hub and suite of mission-critical internal web applications developed and maintained for hundreds of underwriters and brokers who rely on them every day to automate complex policy calculations, risk assessments, and specialized operational workflows.",
+        desc_fr: "Suite d'outils opérationnels et portail de gestion de flux métiers incluant Planiflow (gestion des requêtes, projets, tâches, jalons, permissions d'équipe, suivi du temps et rapports). Développé avec React, Material UI, API Node.js, Sequelize, MySQL et intégration SSO, appuyé par des pipelines CI/CD automatisés (GitHub Actions, Azure).",
+        desc_en: "Internal operational systems and workflow management suite including Planiflow (project and workflow management for requests, tasks, milestones, team permissions, time tracking, and operational reporting). Developed with React, Material UI, Node.js APIs, Sequelize, MySQL, and SSO integration, backed by automated CI/CD release practices (GitHub Actions, Microsoft Azure).",
         url: "https://experiencedeveloppement.intactfc.com/outils/accueil/",
-        tech: ["React.js", "TypeScript", "Node.js", "REST & GraphQL APIs"]
+        tech: ["React.js", "Material UI", "Node.js", "Sequelize", "MySQL", "Azure", "GitHub Actions"]
     },
     {
         id: "leger-opinion",
